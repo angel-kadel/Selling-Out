@@ -6,13 +6,20 @@
         <meta name="arthur" content="Angel, Casper, Tulio"/>
         <meta name="description" content="A website based on electric skateboard and carrying its legacy"/>
         <title>E-skate</title>
+
+        <!-- link to the css file -->
+        <link rel="stylesheet" href="css/styles.css">
     </head>
     <body>
         <!-- header -->
         <header>
-            <!-- Company name and logo-->
-            <img src="images/logo.png" alt="E-skate logo">
-            <h1>E-skate</h1>
+            <!-- logo container -->
+            <div class="logo">
+                <!-- Company name and logo-->
+                <img src="images/logo.png" alt="E-skate logo" >
+                <h1>E-skate</h1>
+            </div>
+
             <!-- navigation to internal cites -->
             <nav>
                 <ul>
@@ -25,14 +32,20 @@
         </header>
 
         <!-- main content of the page -->
-        <main>
-            <!-- Eye catchy part of the website -->
-            <h2>Ride the Future</h2>
-            <!-- opening paragraph of the webiste in home page -->
-            <p>Experience unparalleled freedom and thrill with our top-quality electric skateboards. Perfect for the modern-age hustlers of Toronto!</p>
+        <main class="e-home">
+            <section class="e-home-text">
+                <!-- Eye catchy part of the website -->
+                <h2>Ride the Future</h2>
+                <!-- opening paragraph of the webiste in home page -->
+                <p>Experience unparalleled freedom and thrill with our top-quality electric skateboards. Perfect for the modern-age hustlers of Toronto!</p>
 
-            <!-- button to redirect to our products page -->
-            <button ><a style="text-decoration: none;" href="product.html">Shop Now</a></button>
+                <!-- button to redirect to our products page -->
+                <button ><a style="text-decoration: none;" href="product.html">Shop Now</a></button>
+            </section>
+
+            <figure class="e-home-img">
+                <img src="images/e-home.jpeg" alt="A person riding an electric skateboard in skate park" width="512px">
+            </figure>
         </main>
 
         <!-- footer part -->
