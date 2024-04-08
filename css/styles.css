@@ -29,9 +29,9 @@ footer{
     left: 0;
     bottom: 0;
 }
-
-  
-  
+h2,h3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
 /* CSS for header */
     header h1{
         font-size:30px;
@@ -76,7 +76,7 @@ footer{
     }
 
    nav a:hover{
-        background-color: #231711;
+        background-color: #b7b5b4;
     }
 
 /* index page text and image */
@@ -196,6 +196,10 @@ footer{
     padding: 1rem;
     background-color: #f5f5f5;
 }
+button:hover{
+    background-color: #137075;
+    color: white;
+}
 
 /* About Us page CSS */
 .about-us1 {
@@ -217,10 +221,12 @@ footer{
 .about-us h2 { 
     font-size: 2.5rem; 
     color: #000000;
-     margin-bottom: 2rem; 
+    margin-bottom: 2rem; 
 }
 .about-us h3{
     text-decoration: 2px solid white underline ;
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem; 
 }
 
 .about-us p { 
@@ -229,10 +235,6 @@ footer{
     margin-bottom: 3rem; 
 }
 
-.about-us h3 {
-    font-size: 1.5rem;
-     margin-bottom: 0.5rem; 
-}
 
 /* product page design */
 .skate-products {
@@ -276,6 +278,7 @@ footer{
     background-color: #444;
 }
 
+/* for mobile device */
 @media screen and (max-width: 600px) {
     .topnav a:not(:first-child) {display: none;}
     .topnav a.icon {
@@ -344,50 +347,4 @@ footer{
       display: none;
     }
   
-    .mobile-nav-btn {
-      display: block;
-      background-color: royalblue;
-      color: #fff;
-      padding: 5px 10px;
-      border: none;
-      cursor: pointer;
-      font-size: 1.2rem;
-    }
-  
-    .mobile-nav {
-      display: none;
-      position: fixed;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      background-color: rgba(0, 0, 0, 0.5);
-      z-index: 999;
-    }
-  
-    .mobile-nav ul {
-      list-style-type: none;
-      margin: 0;
-      padding: 0;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      height: 100%;
-    }
-  
-    .mobile-nav ul li {
-      margin: 10px 0;
-    }
-  
-    .mobile-nav ul li a {
-      color: #fff;
-      text-decoration: none;
-      font-size: 1.5rem;
-    }
-  
-    .mobile-nav-btn:focus + .mobile-nav,
-    .mobile-nav-btn:active + .mobile-nav {
-      display: block;
-    }
   }
