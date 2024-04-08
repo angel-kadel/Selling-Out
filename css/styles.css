@@ -75,6 +75,10 @@ footer{
         text-decoration: none;
     }
 
+   nav a:hover{
+        background-color: #231711;
+    }
+
 /* index page text and image */
 
 .e-home {
